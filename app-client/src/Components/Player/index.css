@@ -1,0 +1,9 @@
+.main-containerr {
+    background-image: url('https://res.cloudinary.com/dedvz7flb/image/upload/v1728014846/background_vfe2pk.png');
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

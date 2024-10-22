@@ -1,0 +1,32 @@
+/* #root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; 
+}
+
+.logo {
+  height: 600px;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+} */
+
+.main-app-container {
+  background-image: url(/src/assets/background.png);
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.custom-game-btn {
+  border: none;
+  width: 280px;
+  border-radius: 8px;
+  color: #6c48c5;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 40px;
+  background-color: #a594f9;
+  cursor: pointer;
+}

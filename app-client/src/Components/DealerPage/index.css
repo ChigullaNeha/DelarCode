@@ -1,0 +1,141 @@
+.first-container {
+  height: 95vh;
+  width: 100%;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  background-image: url('https://res.cloudinary.com/dedvz7flb/image/upload/v1728014846/background_vfe2pk.png');
+  height: 130vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.players-container {
+  background-color: #9999FF;
+  height: 600px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+  margin-top: 14px;
+}
+.projects-container {
+  background-color: #9999FF;
+  height: 620px;
+  width: 360px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 34px;
+}
+.each-player {
+  background-color: #333399;
+  height: 34px;
+  width: 200px;
+  border-top-right-radius: 44px;
+  border-top-left-radius: 44px;
+  border-bottom-left-radius: 44px;
+  border-bottom-right-radius: 44px;
+  text-align: center;
+}
+.project {
+  background-color: #9999FF;
+  color: white;
+  height: 300px;
+  width: 240px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px;
+}
+.resource {
+    background-color: cornflowerblue;
+  color: white;
+  height: 260px;
+  width: 220px;
+  /* margin-top: 20px; */
+  border-radius: 8px;
+  text-align: center;
+}
+.ul-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 650px;
+  margin-top: 60px;
+  display: flex;
+}
+.player {
+  background-color: blue;
+  width: 200px;
+  height: 40px;
+  border-radius: 14px;
+}
+.each-project {
+  background-color: #333399;
+  height: 40px;
+  width: 300px;
+  border-radius: 8px;
+  padding: 4px;
+}
+.p-heading {
+  position: absolute;
+  top: 0;
+}
+.drop-player {
+  background-color: #333399;
+  height: 34px;
+  width: 210px;
+  font-size: 14px;
+  padding: 6px;
+ border-radius: 8px;
+}
+.pm-container {
+  margin-bottom: 200px;
+}
+.btns {
+  background-color: #333399;
+  color: white;
+  height: 38px;
+  width: 160px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.btns-container {
+  width: 26%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+.close-btn {
+  height: 34px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #333399;
+  color: white;
+}
+.popup-container {
+  height: 200px;
+  width: 800px;
+  border-radius: 8px
+}
